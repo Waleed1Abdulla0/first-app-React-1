@@ -6,17 +6,14 @@ export default function header() {
     <div>
       <header className="hide-when-mobile">
         <h1>
-          <Link className="" to="/">
-            {" "}
-            Waleed Senan{" "}
-          </Link>
+          <Link to="/"> Waleed Senan </Link>
         </h1>
         <ul className="flex">
           <li className="main-list">
-            <NavLink className="main-Link" to="/about">
+            <NavLink className="main-link" to="/about">
               About Me
             </NavLink>
-            {/*<ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <Link to="/about">About Me</Link>
               </li>
@@ -26,13 +23,13 @@ export default function header() {
               <li>
                 <Link to="/about">Contact Me</Link>
               </li>
-  </ul>*/}
+            </ul>
           </li>
           <li className="main-list">
-            <NavLink className="main-Link" to="/projects">
+            <NavLink className="main-link" to="/projects">
               Projects
             </NavLink>
-            {/*<ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
@@ -53,17 +50,17 @@ export default function header() {
                   </li>
                 </ul>
               </li>
-</ul>*/}
+            </ul>
           </li>
           <li className="main-list">
-            <NavLink className="main-Link" to="/contact">
+            <NavLink className="main-link" to="/contact">
               Contact Me
             </NavLink>
-            {/*  <ul className="sub-ul sub-of-js">
+            <ul className="sub-ul sub-of-js">
               <li>
                 <Link to="/">coming soon🔥</Link>
               </li>
-</ul>*/}
+            </ul>
           </li>
         </ul>
       </header>
