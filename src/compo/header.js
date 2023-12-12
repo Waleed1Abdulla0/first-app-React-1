@@ -1,65 +1,69 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 export default function header() {
   return (
     <div>
       <header className="hide-when-mobile">
         <h1>
-          <a href="/"> Waleed Senan Portfolio </a>
+          <Link className="" to="/">
+            {" "}
+            Waleed Senan{" "}
+          </Link>
         </h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="/about">
+            <NavLink className="main-Link" to="/about">
               About Me
-            </a>
-            <ul className="sub-ul">
+            </NavLink>
+            {/*<ul className="sub-ul">
               <li>
-                <a href="/about">About Me</a>
+                <Link to="/about">About Me</Link>
               </li>
               <li>
-                <a href="/about">Education</a>
+                <Link to="/about">Education</Link>
               </li>
               <li>
-                <a href="/about">Contact Me</a>
+                <Link to="/about">Contact Me</Link>
               </li>
-            </ul>
+  </ul>*/}
           </li>
           <li className="main-list">
-            <a className="main-link" href="projects">
+            <NavLink className="main-Link" to="/projects">
               Projects
-            </a>
-            <ul className="sub-ul">
+            </NavLink>
+            {/*<ul className="sub-ul">
               <li>
-                <a href="projects">Projects</a>
+                <Link to="/projects">Projects</Link>
               </li>
               <li>
-                <a href="projects">Contact Me</a>
+                <Link to="/projects">Contact Me</Link>
               </li>
               <li className="mini-projects">
-                <a href="">mini projects&nbsp; + </a>
+                <Link to="/projects">mini projects&nbsp; + </Link>
                 <ul className="sub-sub-ul">
                   <li>
-                    <a href="projects">project 1</a>
+                    <Link to="/projects">project 1</Link>
                   </li>
                   <li>
-                    <a href="projects">project 2</a>
+                    <Link to="/projects">project 2</Link>
                   </li>
                   <li>
-                    <a href="projects">project 3</a>
+                    <Link to="/projects">project 3</Link>
                   </li>
                 </ul>
               </li>
-            </ul>
+</ul>*/}
           </li>
           <li className="main-list">
-            <a className="main-link" href="contact">
+            <NavLink className="main-Link" to="/contact">
               Contact Me
-            </a>
-            <ul className="sub-ul sub-of-js">
+            </NavLink>
+            {/*  <ul className="sub-ul sub-of-js">
               <li>
-                <a href="/">coming soon🔥</a>
+                <Link to="/">coming soon🔥</Link>
               </li>
-            </ul>
+</ul>*/}
           </li>
         </ul>
       </header>
@@ -77,13 +81,13 @@ export default function header() {
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <a to="">Full Course</a>
               </li>
               <li>
-                <a href="">Crash Course</a>
+                <a to="">Crash Course</a>
               </li>
               <li>
-                <a href="">learn in 1h</a>
+                <a to="">learn in 1h</a>
               </li>
             </ul>
           </div>
@@ -94,10 +98,10 @@ export default function header() {
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <a to="">Full Course</a>
               </li>
               <li>
-                <a href="">CSS Examples</a>
+                <a to="">CSS Examples</a>
               </li>
               <li>
                 <label className="mini-projects" htmlFor="mini">
@@ -106,13 +110,13 @@ export default function header() {
                 <input id="mini" type="checkbox" />
                 <ul className="sub-sub-div">
                   <li>
-                    <a href="">project 1</a>
+                    <a to="">project 1</a>
                   </li>
                   <li>
-                    <a href="">project 2</a>
+                    <a to="">project 2</a>
                   </li>
                   <li>
-                    <a href="">project 3</a>
+                    <a to="">project 3</a>
                   </li>
                 </ul>
               </li>
@@ -125,7 +129,7 @@ export default function header() {
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">coming soon🔥</a>
+                <a to="">coming soon🔥</a>
               </li>
             </ul>
           </div>

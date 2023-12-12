@@ -143,11 +143,10 @@ h1 {
   display: block;
 }
 
-
 /* ==================
     2. main & footer
 ===================== */
-main{
+main {
   color: #1b1b1b;
 
   height: calc(100vh - 128.64px);
@@ -159,11 +158,11 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   text-align: center;
 }
 
-footer{
+footer {
   background-color: #1b1b1b;
 
   padding: 20px 0;
@@ -176,4 +175,8 @@ footer{
 ===================== */
 .show-when-mobile {
   display: none;
+}
+
+.main-link.active {
+  background-color: teal;
 }
