@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../compo/header";
 import Footer from "../compo/footer";
-
+import MainContint from "../compo/MainContint";
 export default function about() {
   return (
     <>
-      <Header/>
+      <Header />
       <>
-        <main>About Page</main>
+        <MainContint PageName={"About Page"} />
       </>
-      <Footer/>
+      <Footer />
     </>
   );
 }

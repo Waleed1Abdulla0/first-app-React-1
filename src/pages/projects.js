@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "../compo/header";
 import Footer from "../compo/footer";
+import MainContint from "../compo/MainContint";
 export default function projects() {
   return (
     <>
-      <Header/>
+      <Header />
       <>
-        <main>Projects Page</main>
+        <MainContint PageName={"Projects Page"} />
       </>
-      <Footer/>
+      <Footer />
     </>
   );
 }
