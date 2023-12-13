@@ -36,7 +36,7 @@ input {
 
 .show-on-click {
   display: none;
-  border-top: 2px solid black;
+  border-top: 2px solid white;
 }
 
 #burger:checked + .show-on-click {
@@ -57,7 +57,7 @@ label:hover,
 label:hover .fas
 
 {
-  color: cyan;
+  color: white;
   letter-spacing: 2px;
 }
 
@@ -67,7 +67,7 @@ label:hover .fas
 }
 
 .main-div{
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 /* ====================================

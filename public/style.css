@@ -42,7 +42,7 @@ html {
 }
 
 header {
-  background-color: #1b1b1b;
+  background-color: maroon;
 }
 
 h1 {
@@ -75,8 +75,8 @@ h1 {
 
 .main-link:hover,
 .main-link.active {
-  color: cyan;
-  box-shadow: 0 0 5px cyan;
+  color: white;
+  box-shadow: 0 0 5px white;
   border-radius: 5px;
 }
 
@@ -90,9 +90,9 @@ h1 {
   position: absolute;
   top: 69px;
   left: -15px;
-  border-top: 1px solid cyan;
+  border-top: 1px solid white;
 
-  background-color: #1b1b1b;
+  background-color: maroon;
 
   border-radius: 5px;
   padding: 5px;
@@ -107,11 +107,11 @@ h1 {
 .sub-ul li {
   padding: 8px 0;
   font-size: 17px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .sub-ul li a:hover {
-  color: cyan;
+  color: white;
   font-weight: bold;
 }
 
@@ -128,9 +128,9 @@ h1 {
   top: 80px;
   left: 153px;
 
-  border-top: 1px solid cyan;
+  border-top: 1px solid black;
 
-  background-color: #1b1b1b;
+  background-color: maroon;
 
   border-radius: 5px;
   padding: 5px;
@@ -143,34 +143,6 @@ h1 {
 .mini-projects:hover .sub-sub-ul {
   display: block;
 }
-
-/* ==================
-    2. main & footer
-===================== */
-main {
-  color: #1b1b1b;
-
-  height: calc(100vh - 128.64px);
-
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-}
-
-footer {
-  background-color: #1b1b1b;
-
-  padding: 20px 0;
-  text-align: center;
-  font-size: 18px;
-}
-
 /* ==================
     3. header of mobile
 ===================== */
