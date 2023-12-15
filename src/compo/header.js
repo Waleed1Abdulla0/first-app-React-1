@@ -67,7 +67,7 @@ export default function header() {
       </header>
       <header
         className="show-when-mobile"
-        style={{ backgroundColor: "maroon" }}
+        style={{ backgroundColor: "Teal" }}
       >
         <h1>
           <Link to="/"> Waleed Senan </Link>

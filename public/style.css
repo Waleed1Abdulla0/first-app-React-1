@@ -42,7 +42,7 @@ html {
 }
 
 header {
-  background-color: maroon;
+  background-color: teal;
 }
 
 h1 {
@@ -92,7 +92,7 @@ h1 {
   left: -15px;
   border-top: 1px solid white;
 
-  background-color: maroon;
+  background-color: teal;
 
   border-radius: 5px;
   padding: 5px;
@@ -130,7 +130,7 @@ h1 {
 
   border-top: 1px solid black;
 
-  background-color: maroon;
+  background-color: teal;
 
   border-radius: 5px;
   padding: 5px;
